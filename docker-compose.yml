@@ -23,7 +23,7 @@ services:
       - /etc/localtime:/etc/localtime
       - ${DKC_AP}/etc/timezone:/etc/timezone
       - ${DKC_AP}/nginx/nginx.conf:/etc/nginx/nginx.conf
-      - ${DKC_AP}/nginx/conf.d/default.conf:/etc/nginx/conf.d/default.conf
+      - ${DKC_AP}/nginx/conf.d/:/etc/nginx/conf.d/
       - ${DKC_AP}/nginx/cert:/etc/nginx/cert
       - ${DKC_AP}/web:${CONTAINER_WEB_AP}
       - /var/log/nginx/:/var/log/nginx/
