@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d1dc8199-d9d3-45b0-8584-72806b6cb0d7" name="默认更改列表" comment="">
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1x354N3FDK4lMvHLLpiVJtmX7bj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d1dc8199-d9d3-45b0-8584-72806b6cb0d7" name="默认更改列表" comment="" />
+      <created>1629570738830</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1629570738830</updated>
+      <workItem from="1629570746061" duration="9007000" />
+      <workItem from="1629580878829" duration="12306000" />
+      <workItem from="1629610624275" duration="65000" />
+      <workItem from="1629611051599" duration="4755000" />
+      <workItem from="1629628120263" duration="956000" />
+      <workItem from="1629629234268" duration="2285000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="555" y="209" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1629574893496">
+      <screen x="0" y="0" width="1440" height="806" />
+    </state>
+    <state x="555" y="209" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.806@0.0.1440.806" timestamp="1629574893496" />
+    <state x="417" y="158" width="606" height="490" key="find.popup" timestamp="1629631164975">
+      <screen x="0" y="0" width="1440" height="806" />
+    </state>
+    <state x="417" y="158" width="606" height="490" key="find.popup/0.0.1440.806@0.0.1440.806" timestamp="1629631164975" />
+    <state x="417" y="159" width="606" height="493" key="find.popup/0.0.1440.810@0.0.1440.810" timestamp="1629614043221" />
+  </component>
+</project>

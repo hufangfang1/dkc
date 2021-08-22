@@ -25,7 +25,7 @@ services:
       - ${DKC_AP}/nginx/nginx.conf:/etc/nginx/nginx.conf
       - ${DKC_AP}/nginx/conf.d/:/etc/nginx/conf.d/
       - ${DKC_AP}/nginx/cert:/etc/nginx/cert
-      - ${DKC_AP}/web:${CONTAINER_WEB_AP}
+      - ${LOCAL_WWW}:${CONTAINER_WEB_AP}
       - /var/log/nginx/:/var/log/nginx/
     ports:
       - 80:80
@@ -77,7 +77,7 @@ services:
       - ${DKC_AP}/etc/timezone:/etc/timezone
       - ${DKC_AP}/php-fpm/php.ini:/usr/local/etc/php/php.ini
       - ${DKC_AP}/php-fpm/php-fpm.d/www.conf:/usr/local/etc/php-fpm.d/www.conf
-      - ${DKC_AP}/web:${CONTAINER_WEB_AP}
+      - ${LOCAL_WWW}:${CONTAINER_WEB_AP}
     ports:
       - ${HOST_PHP_PORT}:9000
     depends_on:
@@ -92,7 +92,7 @@ services:
     volumes:
       - /etc/localtime:/etc/localtime
       - ${DKC_AP}/etc/timezone:/etc/timezone
-      - ${DKC_AP}/web:${CONTAINER_WEB_AP}
+      - ${LOCAL_WWW}:${CONTAINER_WEB_AP}
     depends_on:
       - php
     restart: on-failure
@@ -105,7 +105,7 @@ services:
     volumes:
       - /etc/localtime:/etc/localtime
       - ${DKC_AP}/etc/timezone:/etc/timezone
-      - ${DKC_AP}/web:${CONTAINER_WEB_AP}
+      - ${LOCAL_WWW}:${CONTAINER_WEB_AP}
     depends_on:
       - php
     image: phvia/fe:10.x
