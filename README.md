@@ -114,7 +114,7 @@ $ dkc logs -f --tail 20 nginx
 
 # 查看所有运行的容器
 # 等同 docker ps
-
+com.intellij.remoteServer.util.ServerRuntimeException: error while creating mount source path '/host_mnt/private/var/db/timezone/tz/2021a.1.0/zoneinfo/Asia/Shanghai': mkdir /host_mnt/private/var/db/timezone/tz/2021a.1.0: operation not permitted
 $ dkc ps
 
 # 进入 nginx 容器

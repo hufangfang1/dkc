@@ -2,8 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1dc8199-d9d3-45b0-8584-72806b6cb0d7" name="默认更改列表" comment="">
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nginx/conf.d/agent.orangevip.com.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nginx/conf.d/document.orangevip.com.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nginx/conf.d/l-crm.orangevip.com.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nginx/conf.d/l-otmadmin.orangevip.com.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nginx/conf.d/l-read.orangevip.com.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nginx/conf.d/l-tg.orangevip.com.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nginx/conf.d/l-u.api.orangevip.com.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nginx/conf.d/l-word.orangevip.com.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysql/conf.d/mysql.cnf" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/conf.d/mysql.cnf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysql/mysql.conf.d/mysqld.cnf" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/mysql.conf.d/mysqld.cnf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx/nginx.conf" beforeDir="false" afterPath="$PROJECT_DIR$/nginx/nginx.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php-fpm/php.ini" beforeDir="false" afterPath="$PROJECT_DIR$/php-fpm/php.ini" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +55,37 @@
       <workItem from="1629610624275" duration="65000" />
       <workItem from="1629611051599" duration="4755000" />
       <workItem from="1629628120263" duration="956000" />
-      <workItem from="1629629234268" duration="2285000" />
+      <workItem from="1629629234268" duration="2543000" />
+      <workItem from="1629631890235" duration="49000" />
+      <workItem from="1629632000784" duration="48000" />
+      <workItem from="1629632191252" duration="235000" />
+      <workItem from="1629681990270" duration="826000" />
+      <workItem from="1630374281729" duration="1111000" />
+      <workItem from="1630407565264" duration="258000" />
+      <workItem from="1630408110972" duration="1150000" />
+      <workItem from="1630493081906" duration="235000" />
+      <workItem from="1630564815593" duration="45000" />
+      <workItem from="1630581268593" duration="185000" />
+      <workItem from="1630581557877" duration="874000" />
+      <workItem from="1630917469405" duration="139000" />
+      <workItem from="1631105847966" duration="414000" />
+      <workItem from="1631777762127" duration="3286000" />
+      <workItem from="1631844246083" duration="169000" />
+      <workItem from="1631957151631" duration="183000" />
+      <workItem from="1632465684326" duration="447000" />
+      <workItem from="1632470080090" duration="883000" />
+      <workItem from="1632471714397" duration="19000" />
+      <workItem from="1632471740403" duration="244000" />
+      <workItem from="1632472384676" duration="1038000" />
+      <workItem from="1634015934768" duration="237000" />
+      <workItem from="1634103490231" duration="205000" />
+      <workItem from="1634103972931" duration="831000" />
+      <workItem from="1634543344175" duration="208000" />
+      <workItem from="1634636939283" duration="1490000" />
+      <workItem from="1634699370114" duration="143000" />
+      <workItem from="1634701651618" duration="575000" />
+      <workItem from="1634702233890" duration="429000" />
+      <workItem from="1634702677988" duration="1260000" />
     </task>
     <servers />
   </component>
@@ -51,10 +93,15 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="555" y="209" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1629574893496">
-      <screen x="0" y="0" width="1440" height="806" />
+    <state x="555" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1631957174893">
+      <screen x="0" y="0" width="1440" height="829" />
     </state>
-    <state x="555" y="209" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.806@0.0.1440.806" timestamp="1629574893496" />
+    <state x="555" y="209" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.806@0.0.1440.806" timestamp="1629631657381" />
+    <state x="555" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.829@0.0.1440.829" timestamp="1631957174893" />
+    <state width="461" height="445" key="SwitcherDM" timestamp="1630408146454">
+      <screen x="0" y="0" width="1440" height="813" />
+    </state>
+    <state width="461" height="445" key="SwitcherDM/0.0.1440.813/1440.-116.1920.1080@0.0.1440.813" timestamp="1630408146454" />
     <state x="417" y="158" width="606" height="490" key="find.popup" timestamp="1629631164975">
       <screen x="0" y="0" width="1440" height="806" />
     </state>
