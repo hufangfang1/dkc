@@ -2,19 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1dc8199-d9d3-45b0-8584-72806b6cb0d7" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/nginx/conf.d/agent.orangevip.com.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx/conf.d/document.orangevip.com.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx/conf.d/l-crm.orangevip.com.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx/conf.d/l-otmadmin.orangevip.com.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx/conf.d/l-read.orangevip.com.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx/conf.d/l-tg.orangevip.com.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx/conf.d/l-u.api.orangevip.com.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx/conf.d/l-word.orangevip.com.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nginx/conf.d/l-analysis.orangevip.com.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nginx/conf.d/l-oms.orangevip.com.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nginx/conf.d/l-outbind.orangevip.com.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nginx/conf.d/l-service.orangevip.com.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nginx/conf.d/l-web.orangevip.com.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/conf.d/mysql.cnf" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/conf.d/mysql.cnf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/mysql.conf.d/mysqld.cnf" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/mysql.conf.d/mysqld.cnf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nginx/nginx.conf" beforeDir="false" afterPath="$PROJECT_DIR$/nginx/nginx.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php-fpm/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/php-fpm/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/php-fpm/php.ini" beforeDir="false" afterPath="$PROJECT_DIR$/php-fpm/php.ini" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,6 +35,11 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/nginx/conf.d" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -86,6 +87,31 @@
       <workItem from="1634701651618" duration="575000" />
       <workItem from="1634702233890" duration="429000" />
       <workItem from="1634702677988" duration="1260000" />
+      <workItem from="1635669834052" duration="156000" />
+      <workItem from="1635670164168" duration="335000" />
+      <workItem from="1635847646920" duration="684000" />
+      <workItem from="1637130947950" duration="42000" />
+      <workItem from="1637131576138" duration="11000" />
+      <workItem from="1637131718872" duration="154000" />
+      <workItem from="1637633833879" duration="374000" />
+      <workItem from="1637645863204" duration="60000" />
+      <workItem from="1637645964853" duration="153000" />
+      <workItem from="1637646338767" duration="501000" />
+      <workItem from="1637749701378" duration="87000" />
+      <workItem from="1637750321194" duration="65000" />
+      <workItem from="1637751119347" duration="348000" />
+      <workItem from="1637752130956" duration="87000" />
+      <workItem from="1637844126868" duration="381000" />
+      <workItem from="1638241550915" duration="77000" />
+      <workItem from="1638253823612" duration="189000" />
+      <workItem from="1638410343309" duration="266000" />
+      <workItem from="1638496352090" duration="127000" />
+      <workItem from="1638845282293" duration="1713000" />
+      <workItem from="1640152769094" duration="212000" />
+      <workItem from="1640857130922" duration="123000" />
+      <workItem from="1641454278783" duration="393000" />
+      <workItem from="1641455335220" duration="494000" />
+      <workItem from="1643005428455" duration="160000" />
     </task>
     <servers />
   </component>
